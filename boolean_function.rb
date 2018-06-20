@@ -22,7 +22,7 @@ def variable(x, y)
 	end
 end
 
-# Each variable is a number and two numbers are present
+# Each variable either matches or doesn't match
 p variable(1, 2)
 p variable(2, 2)
 p variable(-1, 1)

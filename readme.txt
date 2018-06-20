@@ -1,0 +1,1 @@
+This contains 2 boolean (true or false) functions that checks to see if 2 classes match or don't match. If they match, the result is true. If they don't match, the result is false.
