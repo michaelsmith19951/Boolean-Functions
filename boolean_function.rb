@@ -1,6 +1,6 @@
-# Function that checks if a number x is equal to a number y
-def variable(x, y)
-	if x == y then 
+# Function that checks if a number x is the same class as a number y
+def check_class(x, y)
+	if x.class == y.class then
 		return true
 	else
 		return false
@@ -8,8 +8,26 @@ def variable(x, y)
 end
 
 
+
+
+# Function that checks if a number x is equal to a number y
+def variable(x, y)
+	if check_class(x, y) == false then
+		return false
+	end
+	if x == y then 
+		return true
+	else
+		return false
+	end
+end
+
+# Each variable is a number and two numbers are present
 p variable(1, 2)
 p variable(2, 2)
 p variable(-1, 1)
 p variable(-5, -5)
+p variable("blue", "red")
+p variable(1, "one")
+
 
